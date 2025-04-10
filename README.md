@@ -10,50 +10,50 @@ The dataset used for this project is sourced from Kaggle:
 
 - **Breast Histopathology Images**: [Kaggle Dataset Link](https://www.kaggle.com/datasets/paultimothymooney/breast-histopathology-images)
 
-This dataset contains 277,524 patches of size 50 x 50 pixels extracted from 162 whole mount slide images of breast cancer specimens. Each image is labeled as **class 0** (no IDC) or **class 1** (contains IDC).&#8203;:contentReference[oaicite:0]{index=0}
+This dataset contains 277,524 patches of size 50 x 50 pixels extracted from 162 whole mount slide images of breast cancer specimens. Each image is labeled as **class 0** (no IDC) or **class 1** (contains IDC).
 
 ## Models Implemented
 
 The following CNN architectures have been implemented and evaluated:
 
-- **Basic CNN**: :contentReference[oaicite:1]{index=1}&#8203;:contentReference[oaicite:2]{index=2}
-- **LeNet**: :contentReference[oaicite:3]{index=3}&#8203;:contentReference[oaicite:4]{index=4}
-- **Inception (GoogLeNet)**: :contentReference[oaicite:5]{index=5}&#8203;:contentReference[oaicite:6]{index=6}
-- **VGG16**: :contentReference[oaicite:7]{index=7}&#8203;:contentReference[oaicite:8]{index=8}
-- **MobileNet**: :contentReference[oaicite:9]{index=9}&#8203;:contentReference[oaicite:10]{index=10}
-- **Xception**: :contentReference[oaicite:11]{index=11}&#8203;:contentReference[oaicite:12]{index=12}
-- **Transformers**: :contentReference[oaicite:13]{index=13}&#8203;:contentReference[oaicite:14]{index=14}
+- Basic CNN
+- LeNet
+- Inception (GoogLeNet)
+- VGG16
+- MobileNet
+- Xception
+- Transformers (using Hugging Face)
 
 ## Repository Structure
 
-- `Basic CNN for breast-cancer-image-classification.ipynb`: :contentReference[oaicite:15]{index=15}&#8203;:contentReference[oaicite:16]{index=16}
-- `LeNet breast-cancer-image-classification.ipynb`: :contentReference[oaicite:17]{index=17}&#8203;:contentReference[oaicite:18]{index=18}
-- `INCEPTION.ipynb`: :contentReference[oaicite:19]{index=19}&#8203;:contentReference[oaicite:20]{index=20}
-- `ML PROJECT VGG16.ipynb`: :contentReference[oaicite:21]{index=21}&#8203;:contentReference[oaicite:22]{index=22}
-- `MobileNet_BCH.ipynb`: :contentReference[oaicite:23]{index=23}&#8203;:contentReference[oaicite:24]{index=24}
-- `XCEPTION ON BCH.ipynb`: :contentReference[oaicite:25]{index=25}&#8203;:contentReference[oaicite:26]{index=26}
-- `transformersHF.ipynb`: :contentReference[oaicite:27]{index=27}&#8203;:contentReference[oaicite:28]{index=28}
-- `PRESENTATION.pptx`: :contentReference[oaicite:29]{index=29}&#8203;:contentReference[oaicite:30]{index=30}
+- `Basic CNN for breast-cancer-image-classification.ipynb`
+- `LeNet breast-cancer-image-classification.ipynb`
+- `INCEPTION.ipynb`
+- `ML PROJECT VGG16.ipynb`
+- `MobileNet_BCH.ipynb`
+- `XCEPTION ON BCH.ipynb`
+- `transformersHF.ipynb`
+- `PRESENTATION.pptx`: Summary of project goals and outcomes.
 
 ## Environment and Tools
 
-- **Platform**: :contentReference[oaicite:31]{index=31}&#8203;:contentReference[oaicite:32]{index=32}
-- **Libraries**: :contentReference[oaicite:33]{index=33}&#8203;:contentReference[oaicite:34]{index=34}
+- **Platform**: Kaggle Notebooks with GPU acceleration
+- **Libraries**: TensorFlow/Keras, PyTorch, OpenCV, NumPy, Pandas, Matplotlib
 
 ## Results
 
-:contentReference[oaicite:35]{index=35} :contentReference[oaicite:36]{index=36}&#8203;:contentReference[oaicite:37]{index=37}
+The models were evaluated based on accuracy, precision, recall, and F1-score. Results are available within the respective notebooks.
 
 ## How to Use
 
-1. **Access the Dataset**: :contentReference[oaicite:38]{index=38}&#8203;:contentReference[oaicite:39]{index=39}
-2. **Set Up the Environment**: :contentReference[oaicite:40]{index=40}&#8203;:contentReference[oaicite:41]{index=41}
-3. **Run the Notebooks**: :contentReference[oaicite:42]{index=42}&#8203;:contentReference[oaicite:43]{index=43}
+1. **Download the dataset** from Kaggle and link it to your notebook environment.
+2. **Install required libraries** if running locally.
+3. **Run any notebook** to test or retrain the models.
 
 ## Acknowledgments
 
-:contentReference[oaicite:44]{index=44}&#8203;:contentReference[oaicite:45]{index=45}
+Special thanks to Kaggle and the dataset contributors for providing the Breast Histopathology Images dataset.
 
 ## License
 
-:contentReference[oaicite:46]{index=46}&#8203;:contentReference[oaicite:47]{index=47}
+This project is licensed under the MIT License.
